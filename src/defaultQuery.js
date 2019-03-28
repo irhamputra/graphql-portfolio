@@ -8,9 +8,25 @@ const defautlQuery = `
 	# Here is the sample data and click play
 	
 	{
-		allActors {
-			id
+		me {
 			name
+			age
+			email
+			employed
+		}
+		job {
+			previous {
+				name
+				city
+				country
+				duration
+			}
+			now {
+				name
+				city
+				country
+				duration
+			}
 		}
 	}
 `
