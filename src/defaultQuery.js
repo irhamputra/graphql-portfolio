@@ -8,26 +8,13 @@ const defautlQuery = `
 	# Here is the sample data and click play
 	
 	{
-		me {
-			name
-			age
-			email
-			employed
-		}
+		me
 		job {
-			previous {
-				name
-				city
-				country
-				duration
-			}
-			now {
-				name
-				city
-				country
-				duration
-			}
+			previous
+			now
 		}
+		education
+		volunteer
 	}
 `
 
