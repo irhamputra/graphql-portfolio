@@ -1,6 +1,7 @@
 {
   "version": 2,
   "name": "cv-graphiql",
+  "alias": "irhamputra.com",
   "builds": [
     {
       "src": "package.json",

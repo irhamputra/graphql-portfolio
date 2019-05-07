@@ -7,7 +7,6 @@ import './index.css'
 import defaultQuery from "./defaultQuery";
 
 class App extends Component {
-	
 	graphQLFetcher = async body => {
 		const option = {
 			method: 'post',
@@ -17,7 +16,7 @@ class App extends Component {
 			body: JSON.stringify(body)
 		};
 		
-		const url = 'https://cv-graphiql-backend.irhamputra.now.sh ';
+		const url = 'https://cv-graphiql-backend.irhamputra.now.sh/graphql';
 		
 		const res = await fetch(url, option);
 		
