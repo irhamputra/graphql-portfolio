@@ -1,6 +1,6 @@
 const defautlQuery = `
 	# Hi!👋🏼 My name is Muhamad Irham Prasetyo
-	# I am a Front-end Developer from Indonesia 🇮🇩 based in Leipzig 🇩🇪
+	# I am a Software developer from Indonesia 🇮🇩 based in Leipzig 🇩🇪
 	# I made this GraphQL IDE as my CV because everyone loves GraphQL
 	# Also GraphQL is more way easier to build REST API
 	# You can fetch, which data do you want to know about me
@@ -10,12 +10,13 @@ const defautlQuery = `
 	{
 		me
 		job {
-			previous
-			now
+	    now
+		  previous
 		}
+		certification
 		education
 		volunteer
 	}
-`
+`;
 
 export default defautlQuery;

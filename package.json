@@ -1,32 +1,40 @@
 {
-  "name": "cv-graphiql",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "graphiql": "^0.13.0",
-    "graphql": "^14.2.0",
-    "isomorphic-fetch": "^2.2.1",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "2.1.8"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "now-build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ],
-  "devDependencies": {
-    "graphiql-material-theme": "^1.0.3"
-  }
+    "name": "cv-graphiql",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "graphiql": "^0.13.0",
+        "graphql": "^14.2.0",
+        "isomorphic-fetch": "^2.2.1",
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6",
+        "react-scripts": "2.1.8"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "now-build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": [
+        ">0.2%",
+        "not dead",
+        "not ie <= 11",
+        "not op_mini all"
+    ],
+    "devDependencies": {
+        "graphiql-material-theme": "^1.0.3",
+        "prettier": "^1.18.2"
+    },
+    "prettier": {
+        "singleQuote": true,
+        "printWidth": 140,
+        "semi": true,
+        "tabWidth": 4,
+        "bracketSpacing": true
+    }
 }
