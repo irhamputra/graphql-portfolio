@@ -13,6 +13,14 @@ const defautlQuery = `
 	    now
 		  previous
 		}
+		skills {
+		  frontend
+		  backend
+		  graphqlEnv
+		  testing
+		  databases
+		  tools
+		}
 		certification
 		education
 		volunteer
